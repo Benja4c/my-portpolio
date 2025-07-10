@@ -1,0 +1,156 @@
+body{
+    background-color: rgb(187, 229, 156)
+    
+}
+
+.home{
+    background-color: rgb(187, 229, 156);
+    padding: 20px;
+    text-align: center;
+}
+.logo{
+    font-size: 30px;
+    color: white;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+h2{
+    color: white;
+    font-size: 30px;
+}
+p{
+    font-size: 12px;
+    font-family: verdana;
+    font-weight: 200;
+}
+h1{
+    color: white;
+    font-size: 30px;
+}
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.mydivname{
+    flex: 0 0 30%;
+    box-sizing: border-box;
+    margin: 1%;
+    background-color: #d9d9d9;
+    padding: 15px;
+}
+/*
+@media {
+    max-width: 768px;
+    .mydivname{flex 0 0 100%}
+
+    
+}*/
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(153, 161, 155);
+    margin: 0;
+    position: relative;
+    width: auto;
+
+
+}
+nav a{
+    font-size: 200;
+    color:rgb(37, 19, 2);
+    font-weight: 500;
+    margin-left: 3.5 rem;
+    transition: 4s;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.logo{
+    font-size: 100;
+    color:rgb(11, 7, 1);
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-wrap: wrap;
+    font-style: italic;
+    
+}
+.footer-name{
+    text-align: center;
+    color: rgb(243, 232, 232) ;
+   background-color: rgb(54, 50, 50);
+   background-color: rgb(212, 222, 213);
+     color: rgb(208, 212, 209);
+     padding: 100px 20px;
+     text-align: center;
+     position: relative;
+     background-image: url(pexel.jpg);
+}
+.hero-content{
+    max-width: 400px;
+    margin: auto;
+    z-index: 1;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero h1{
+   font-size: 50px;
+   margin-bottom: 20px;
+   font-family: aerial;
+   font-weight: 600;
+}
+hero p{
+   font-size: 50px;
+   margin-bottom: 20px;
+}
+.cta-button{
+     background-color: rgb(196, 31, 13);
+     color: white;
+     padding: 15px 30px;
+     font-size: 10px;
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+     text-decoration: none;
+}
+.cta-button:hover{
+     background-color: blanchedalmond;
+     color: white;
+     padding: 15px 30px;
+     font-size: 10px;
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+
+}
+.flex-container{
+   background-color: rgb(102, 232, 102);
+}
+.about us{
+    padding-top: 50px;
+    padding-left: 5px;
+    padding-bottom: 50px;
+    flex: 1 1 48%;
+    box-sizing: border-box;
+    margin: 1%;
+    background-color: antiquewhite;
+}
+@media screen {flex: 1 1 48%;
+.about us{
+     box-sizing: border-box;
+    margin: 1%;}
+    
+
+.contact-form form button:hover{}
+    background-color: rgb(183, 47, 47);
+    {
+        flex:0 0 100%;
+        text-align center
+    .contact-form form{
+        text-align: left;
+    }
+    }
+}
